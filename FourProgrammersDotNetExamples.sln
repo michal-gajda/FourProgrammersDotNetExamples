@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMvvmBackgroundWorker", "WpfMvvmBackgroundWorker\WpfMvvmBackgroundWorker.csproj", "{7A4CD262-1BC1-4F7B-B012-A27C2D845DA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMvvmDropDownExample", "WpfMvvmDropDownExample\WpfMvvmDropDownExample.csproj", "{CC0DF51D-AD83-4EDE-A3DF-2D0BC1C0C4CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7A4CD262-1BC1-4F7B-B012-A27C2D845DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A4CD262-1BC1-4F7B-B012-A27C2D845DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A4CD262-1BC1-4F7B-B012-A27C2D845DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0DF51D-AD83-4EDE-A3DF-2D0BC1C0C4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0DF51D-AD83-4EDE-A3DF-2D0BC1C0C4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0DF51D-AD83-4EDE-A3DF-2D0BC1C0C4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0DF51D-AD83-4EDE-A3DF-2D0BC1C0C4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

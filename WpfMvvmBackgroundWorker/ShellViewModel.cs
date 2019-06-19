@@ -37,8 +37,7 @@
             }
         }
 
-        public ICommand RunWorkerCommand => this.runWorkerCommand ??
-                                            (this.runWorkerCommand = new RunWorkerCommand(this.backgroundWorker));
+        public ICommand RunWorkerCommand => this.runWorkerCommand ?? (this.runWorkerCommand = new RunWorkerCommand(this.backgroundWorker));
 
         private void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
         {
