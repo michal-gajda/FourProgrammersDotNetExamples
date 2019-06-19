@@ -18,7 +18,7 @@
 
         }
 
-        public ICommand OneCommand => this.oneCommand ?? (this.oneCommand = new OneCommand(this.Items));
+        public ICommand OneCommand => this.oneCommand ?? (this.oneCommand = new OneCommand());
 
         public ObservableCollection<CompanyItem> Items
         {

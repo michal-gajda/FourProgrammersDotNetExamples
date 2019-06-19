@@ -17,6 +17,6 @@
         </Grid.RowDefinitions>
         <ComboBox Grid.Row="0" SelectedItem="{Binding SelectedItem, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding Items, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" IsSynchronizedWithCurrentItem="True" DisplayMemberPath="Name" SelectedValuePath="Id" />
         <Label Grid.Row="1" Padding="0" Content="{Binding SelectedItem.Id, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" />
-        <Button Grid.Row="2" Command="{Binding OneCommand}" Content="Fill" />
+        <Button Grid.Row="2" Command="{Binding OneCommand}" CommandParameter="{Binding Items, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Content="Fill" />
     </Grid>
 </Window>
